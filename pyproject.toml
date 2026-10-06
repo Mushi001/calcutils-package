@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "calcutils_henriette"
+version = "0.1.0"
+description = "A simple student tutorial math utility package"
+readme = "README.md"
+authors = [
+    { name = "Mushimiyimana Henriette", email = "henryhonest250@gmail.com" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.8"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/Mushi001/calcutils-package"
+
+[tool.setuptools.packages.find]
+where = ["src"]

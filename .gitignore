@@ -1,0 +1,13 @@
+# Virtual environment (this folder is itself a venv)
+Include/
+Lib/
+Scripts/
+pyvenv.cfg
+test_env/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+__pycache__/
+*.pyc
